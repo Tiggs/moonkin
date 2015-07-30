@@ -1,0 +1,89 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background-image: url('../img/moonkin_flap.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 90% 10%;
+  -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.jumbotron {
+	background: none;
+}
+
+.input-area {
+	background-color: none;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 0px solid #000000;
+}
+
+.readable {
+	text-shadow: 1px 1px #fff;
+	padding-left: 0px;
+}
+
+.toplabel {
+	display: inline-block;
+	font-weight: bold;
+	padding: 0px;
+	margin-bottom: -2px;
+	font: 16pt arial, serif;
+	text-shadow: 1px 1px #fee;
+}
+
+.generate {
+	margin-top: 10px;
+	margin-left: 2px;
+}
+
+.hootinput {
+	background-color: #ffd;
+}
+
+.row {
+    flex: 1;
+    display: flex;
+    flex-flow: row;
+}
+.col {
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+    margin: 0px 3px;
+}
+
+label {
+    display: block;
+    padding-left: 2px;
+}
+textarea {
+    flex: 1;
+    display: block;
+    margin: 2px 0;
+    padding: 1px;
+    border: 1px solid;
+    resize: none;
+	min-height: 200px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  padding-top:10px;
+  background-color: #fff;
+  text-align: center;
+}
+ 
